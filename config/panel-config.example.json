@@ -1,0 +1,17 @@
+{
+  "ramMin": 4,
+  "ramMax": 8,
+  "pvp": true,
+  "commandBlocks": false,
+  "backupsEnabled": true,
+  "intervalMinutes": 180,
+  "maxAutomatic": 24,
+  "maxAgeDays": 0,
+  "nextBackup": null,
+  "lastBackup": null,
+  "restartRequired": false,
+  "hardcoreResetEnabled": true,
+  "hardcoreSeedMode": "random",
+  "hardcoreArchive": true,
+  "hardcoreCountdown": 10
+}

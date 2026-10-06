@@ -1,0 +1,6 @@
+name: HardcoreReset
+version: 1.0.0
+main: local.overworld.hardcore.HardcoreResetPlugin
+api-version: '26.2'
+description: Hardcore cooperativo con detección real de muerte y reset coordinado por el panel local.
+author: Overworld

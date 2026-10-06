@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Overworld · Panel local</title><link rel="stylesheet" href="/styles.css"><script type="module" src="/app.js"></script></head>
+<body>
+<aside><div class="brand"><span class="brand-icon">◈</span><div>OVERWORLD<small>CONTROL LOCAL</small></div></div><nav id="nav"></nav><div class="local-note"><span class="dot"></span> Solo en este ordenador<small>127.0.0.1 · Puerto 3000</small></div></aside>
+<main><header><div><span class="eyebrow">TU SERVIDOR PRIVADO</span><h1 id="title">Dashboard</h1></div><div class="header-right"><span id="status" class="badge">Conectando…</span><span class="avatar">MC</span></div></header><div id="notice" class="notice hidden"></div><div id="restart" class="notice warning hidden">Configuración guardada. Se aplicará al siguiente inicio o reinicio. <button id="restart-now">Reiniciar ahora</button><button id="restart-later">Más tarde</button></div><div id="view"></div><footer>OVERWORLD / PAPER <span>Panel privado · Los amigos solo se conectan a Minecraft</span></footer></main>
+<div id="toast" role="status" class="hidden"></div>
+<dialog id="confirm-dialog"><form method="dialog"><span class="eyebrow">CONFIRMAR OPERACIÓN</span><h2 id="confirm-title"></h2><p id="confirm-text"></p><label id="confirm-input-label" class="hidden">Escribe la palabra indicada<input id="confirm-input" autocomplete="off"></label><div class="actions"><button value="cancel">Cancelar</button><button id="confirm-accept" value="accept" class="danger">Confirmar</button></div></form></dialog>
+</body></html>

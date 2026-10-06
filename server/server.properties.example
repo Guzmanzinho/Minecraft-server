@@ -1,0 +1,19 @@
+# Plantilla para Paper 26.2; no copiar encima de un servidor existente.
+level-name=world
+level-seed=
+hardcore=true
+difficulty=hard
+gamemode=survival
+force-gamemode=false
+online-mode=true
+white-list=true
+enforce-whitelist=true
+max-players=10
+view-distance=10
+simulation-distance=6
+enable-rcon=false
+enable-query=false
+server-port=25565
+server-ip=
+management-server-enabled=false
+motd=Minecraft cooperativo
